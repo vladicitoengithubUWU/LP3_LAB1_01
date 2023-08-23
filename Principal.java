@@ -17,7 +17,7 @@ public class Principal {
             }
         } while (heal < 6 && !fl);
         if (fl){
-            System.out.println("Adivinaste!!!");
+            System.out.println("Adivinaste!!!, ganaste mil soles");
         }
         else
             System.out.println("ups, perdiste...");

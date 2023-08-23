@@ -15,7 +15,7 @@ public class Principal {
             if (rp == 1234){
                 fl = true;
             }
-        } while (vida < 3 && !fl);
+        } while (vida < 6 && !fl);
         if (fl){
             System.out.println("Adivinaste!!!");
         }

@@ -1,6 +1,7 @@
 package com.mycompany.principal;
 
 import java.util.Scanner;
+import rega.regalo;
 
 public class Principal {
     public static void main(String[] args){
@@ -15,9 +16,10 @@ public class Principal {
             if (rp == 1234){
                 fl = true;
             }
-        } while (heal < 6 && !fl);
+        } while (heal < 3 && !fl);
         if (fl){
             System.out.println("Adivinaste!!!");
+            regalo.elegir(heal);
         }
         else
             System.out.println("ups, perdiste...");
